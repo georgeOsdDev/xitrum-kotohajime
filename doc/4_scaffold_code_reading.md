@@ -2,11 +2,11 @@
 
 Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケーション開発を勉強します。
 
-目次は[こちら](https://)
+目次は[こちら](http://george-osd-blog.heroku.com/40)
 
 ## 4. XitrumアプリケーションのScaffoldのソースコードリーディング
 
-[前回]()XitrumのScaffoldプロジェクトを動かすところまでやったので、
+[前回](http://george-osd-blog.heroku.com/43)XitrumのScaffoldプロジェクトを動かすところまでやったので、
 今回はScaffoldのプロジェクトがどのようなコードで動いているのかを確認していきます。
 
 Xitrumサーバー起動時に以下のようなログが出力されました。

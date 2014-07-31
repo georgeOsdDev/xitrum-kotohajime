@@ -2,7 +2,7 @@
 
 Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケーション開発を勉強します。
 
-目次は[こちら](https://)
+目次は[こちら](http://george-osd-blog.heroku.com/40)
 
 ## 2. Xitrumアプリケーション開発環境の構築
 

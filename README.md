@@ -4,12 +4,12 @@
 
 ## 目次（随時更新）
 
-1. はじめに
-1. 基本編
-  2. [Xitrumと関連プロジェクトについて](http://)
-  2. [Xitrumアプリケーション開発環境の構築](http://)
-  2. [XitrumアプリケーションのScaffoldとプロジェクト構成](http://)
-  2. [XitrumアプリケーションのScaffoldのソースコードリーディング](http://)
+- [0] はじめに
+- [1] 基本編
+  2. [Xitrumと関連プロジェクトについて](http://george-osd-blog.heroku.com/41)
+  2. [Xitrumアプリケーション開発環境の構築](http://george-osd-blog.heroku.com/42)
+  2. [XitrumアプリケーションのScaffoldとプロジェクト構成](http://george-osd-blog.heroku.com/43)
+  2. [XitrumアプリケーションのScaffoldのソースコードリーディング](http://george-osd-blog.heroku.com/44)
   2. ルーティングを追加する: ActionとHTTPメソッドアノテーション](http://)
   2. レイアウトを追加する](http://)
     3. HTMLをレスポンスする](http://)
@@ -29,7 +29,7 @@
     3. 設定とパッケージング](http://)
     3. Herokuへのデプロイ](http://)
 
-1. 応用編
+- [2] 応用編
   2. コンポーネント
   2. 非同期アクション
     3. ActorAction
@@ -38,7 +38,7 @@
   2. クラスタリング
     3. Akka/Glokka
     3. Hazelcast
-1. Tips編
+- [3] Tips編
   2. セキュリティ
   2. 国際化対応
   2. ドキュメンテーション
@@ -49,7 +49,7 @@
   2. 独自テンプレートエンジン
 
 
-## 1. はじめに
+## 0. はじめに
 
 このシリーズはXitrumを使ったWebアプリケーション開発を通じて
 Xitrumの普及、筆者自身のScala/Xitrum/Web開発スキルアップを目指します。
@@ -67,5 +67,5 @@ Xitrumの普及、筆者自身のScala/Xitrum/Web開発スキルアップを目�
 
 ## ライセンス
 
-記事とサンプルコードは[MIT](http://opensource.org/licenses/mit-license.php)ライセンスで[github](https://github.com/georgeOsdDev/xitrum-tutorial)で公開します。
+記事とサンプルコードは[MIT](http://opensource.org/licenses/mit-license.php)ライセンスで[github](https://github.com/georgeOsdDev/xitrum-kotohajime)で公開します。
 Copyright © 2014 by [Takeharu.Oshida](http://about.me/takeharu.oshida).
