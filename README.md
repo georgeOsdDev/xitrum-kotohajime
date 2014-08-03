@@ -10,8 +10,10 @@
   2. [Xitrumアプリケーション開発環境の構築](http://george-osd-blog.heroku.com/42)
   2. [XitrumアプリケーションのScaffoldとプロジェクト構成](http://george-osd-blog.heroku.com/43)
   2. [XitrumアプリケーションのScaffoldのソースコードリーディング](http://george-osd-blog.heroku.com/44)
-  2. ルーティングを追加する: ActionとHTTPメソッドアノテーション](http://)
-  2. レイアウトを追加する](http://)
+  2. ルーティングを追加する:
+    3. [ActionとHTTPメソッドアノテーション](http://george-osd-blog.heroku.com/46)
+    3. ActionとURL](http://)
+  2. レイアウトを追加する:
     3. HTMLをレスポンスする](http://)
     3. Templateを使用してHTMLをレスポンスする](http://)
     3. JSONをレスポンスする](http://)
