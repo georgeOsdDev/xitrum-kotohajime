@@ -51,6 +51,7 @@ Xitrumプロジェクトには開発者が簡単にアプリケーション開�
     │   ├── robots.txt
     │   └── whale.png
     ├── sbt
+    │   ├── agent7-1.0.jar
     │   ├── sbt
     │   ├── sbt-launch-0.13.5.jar
     │   └── sbt.bat
@@ -114,7 +115,7 @@ Xitrumプロジェクトには開発者が簡単にアプリケーション開�
 
     //（説明）scala,javaに関する設定はデフォルトのままでOK
 
-    scalaVersion := "2.11.1"
+    scalaVersion := "2.11.2"
     //scalaVersion := "2.10.4"
 
     scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked")
@@ -127,7 +128,7 @@ Xitrumプロジェクトには開発者が簡単にアプリケーション開�
     // （説明）libraryDependencies += に続く行はプロジェクトの依存ライブラリが記載されています
 
     // （説明）xitrum
-    libraryDependencies += "tv.cntt" %% "xitrum" % "3.16"
+    libraryDependencies += "tv.cntt" %% "xitrum" % "3.17"
 
     // （説明）log出力用にlogbackを使用します。
     // Xitrum uses SLF4J, an implementation of SLF4J is needed
@@ -135,7 +136,7 @@ Xitrumプロジェクトには開発者が簡単にアプリケーション開�
 
     // （説明）logbackの設定をxmlで使用するためのライブラリ
     // For writing condition in logback.xml
-    libraryDependencies += "org.codehaus.janino" % "janino" % "2.7.4"
+    libraryDependencies += "org.codehaus.janino" % "janino" % "2.7.5"
 
     // （説明）デフォルトではbootstrapが内包されています
     libraryDependencies += "org.webjars" % "bootstrap" % "3.2.0"
@@ -144,7 +145,7 @@ Xitrumプロジェクトには開発者が簡単にアプリケーション開�
     // （説明）デフォルトではテンプレートエンジンはxitrum-scalateを使用します
     // Scalate template engine config for Xitrum -----------------------------------
 
-    libraryDependencies += "tv.cntt" %% "xitrum-scalate" % "2.1"
+    libraryDependencies += "tv.cntt" %% "xitrum-scalate" % "2.2"
 
     // （説明）Xitrum-Scalateを使用するための設定が記載されています
     // Precompile Scalate templates
@@ -161,7 +162,7 @@ Xitrumプロジェクトには開発者が簡単にアプリケーション開�
 
     autoCompilerPlugins := true
 
-    addCompilerPlugin("tv.cntt" %% "xgettext" % "1.0")
+    addCompilerPlugin("tv.cntt" %% "xgettext" % "1.1")
 
     scalacOptions += "-P:xgettext:xitrum.I18n"
 
