@@ -4,19 +4,19 @@ Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケー�
 
 目次は[こちら](http://george-osd-blog.heroku.com/40)
 
-## 5. ルーティングを追加する: ActionとHTTPメソッドアノテーション
+## 5. ルーティングを追加する:
 
 今回から実際にソースコードを作成して、Xitrumアプリケーション開発を行います。
 まずは、Webアプリケーションとして画面表示やAPIのエンドポイントとなるルーティングを追加していきます。
 
 公式ドキュメントは以下のページが参考になります。
- * [Action と view](http://xitrum-framework.github.io/guide/ja/action_view.html)
- * [RESTful APIs](http://xitrum-framework.github.io/guide/ja/restful.html)
+ * [Action と view](http://xitrum-framework.github.io/guide/3.17/ja/action_view.html)
+ * [RESTful APIs](http://xitrum-framework.github.io/guide/3.17/ja/restful.html)
 
 
 ### 5-1. ActionとHTTPメソッドアノテーション
 
-Xitrumの特徴の1つに[ルートの自動収集](http://xitrum-framework.github.io/guide/ja/intro.html)があります。
+Xitrumの特徴の1つに[ルートの自動収集](http://xitrum-framework.github.io/guide/3.17/ja/intro.html)があります。
 
 > JAX-RSとRailsエンジンの思想に基づく自動ルートコレクション。全てのルートを１箇所に宣言する必要はありません。 この機能は分散ルーティングと捉えることができます。この機能のおかげでアプリケーションを他のアプリケーションに取り込むことが可能になります。 もしあなたがブログエンジンを作ったならそれをJARにして別のアプリケーションに取り込むだけですぐにブログ機能が使えるようになるでしょう。 ルーティングには更に2つの特徴があります。 ルートの作成（リバースルーティング）は型安全に実施され、 Swagger Doc を使用したルーティングに関するドキュメント作成も可能となります。
 

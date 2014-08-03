@@ -125,7 +125,7 @@ Xitrumサーバー起動時に以下のようなログが出力されました�
 このクラスはtraitのため、実質的な処理は行っていないようです。
 
 では、`Xitrum.Action`とはどういったクラスなのでしょうか。
-[ソース](https://github.com/xitrum-framework/xitrum/blob/master/src/main/scala/xitrum/Action.scala)および[APIドキュメント](http://xitrum-framework.github.io/api/index.html#xitrum.Action)には
+[ソース](https://github.com/xitrum-framework/xitrum/blob/master/src/main/scala/xitrum/Action.scala)および[APIドキュメント](http://xitrum-framework.github.io/api/3.17/index.html#xitrum.Action)には
 
   >abstract def execute(): Unit
 

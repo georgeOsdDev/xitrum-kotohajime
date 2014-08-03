@@ -188,7 +188,7 @@ build.sbt編集時の注意点として、各行は空行区切りとなって�
 
 configディレクトリには、アプリケーションの各種設定ファイルが含まれます。
 最初はデフォルト設定のままで大丈夫です。
-設定ファイルには[JSON、properties、conf形式のファイルを使用することができます](http://xitrum-framework.github.io/guide/en/howto.html#load-config-files)。
+設定ファイルには[JSON、properties、conf形式のファイルを使用することができます](http://xitrum-framework.github.io/guide/3.17/ja/howto.html#load-config-files)。
 新たに設定ファイルを作成する場合configディレクトリに保存します。
 
 #### projectディレクトリ
