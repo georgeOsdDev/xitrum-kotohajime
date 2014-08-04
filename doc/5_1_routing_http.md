@@ -40,7 +40,7 @@ HTTPメソッドに対応したクラスを作成します。
     }
 
     @GET("/httpcrud")
-    class getIndex extends HttpCRUD {
+    class GetIndex extends HttpCRUD {
       def execute() {
         log.debug("getIndex")
         respondClassNameAsText()
@@ -48,7 +48,7 @@ HTTPメソッドに対応したクラスを作成します。
     }
 
     @POST("/httpcrud")
-    class postIndex extends HttpCRUD {
+    class PostIndex extends HttpCRUD {
       def execute() {
         log.debug("postIndex")
         respondClassNameAsText()
@@ -56,7 +56,7 @@ HTTPメソッドに対応したクラスを作成します。
     }
 
     @PUT("/httpcrud")
-    class putIndex extends HttpCRUD {
+    class PutIndex extends HttpCRUD {
       def execute() {
         log.debug("putIndex")
         respondClassNameAsText()
@@ -64,7 +64,7 @@ HTTPメソッドに対応したクラスを作成します。
     }
 
     @DELETE("/httpcrud")
-    class deleteIndex extends HttpCRUD {
+    class DeleteIndex extends HttpCRUD {
       def execute() {
         log.debug("deleteIndex")
         respondClassNameAsText()
@@ -72,20 +72,13 @@ HTTPメソッドに対応したクラスを作成します。
     }
 
     @PATCH("/httpcrud")
-    class patchIndex extends HttpCRUD {
+    class PatchIndex extends HttpCRUD {
       def execute() {
         log.debug("patchIndex")
         respondClassNameAsText()
       }
     }
 
-    @PATCH("/httpcrud2")
-    class patchIndex2 extends HttpCRUD {
-      def execute() {
-        log.debug("patchIndex")
-        respondClassNameAsText()
-      }
-    }
 
 各HTTPメソッドに対応したActionを作成しました。
 サーバ側のログと、クライアントへのレスポンスに現在実行されているAction名を出力する簡単な例です。
@@ -98,25 +91,25 @@ Xitrumを起動すると、以下の様なログが表示されます。
 
     [INFO] Normal routes:
     GET     /          quickstart.action.SiteIndex
-    GET     /httpcrud  quickstart.action.getIndex
-    POST    /httpcrud  quickstart.action.postIndex
-    PUT     /httpcrud  quickstart.action.putIndex
-    PATCH   /httpcrud  quickstart.action.patchIndex
-    DELETE  /httpcrud  quickstart.action.deleteIndex
+    GET     /httpcrud  quickstart.action.GetIndex
+    POST    /httpcrud  quickstart.action.PostIndex
+    PUT     /httpcrud  quickstart.action.PutIndex
+    PATCH   /httpcrud  quickstart.action.PatchIndex
+    DELETE  /httpcrud  quickstart.action.DeleteIndex
 
 各HTTPメソッドに対応したActionがルーティングテーブルに追加されました。
 
 リクエストを投げてみます。
 
     > curl http://localhost:8000/httpcrud                                                                                                                               10:32:42
-    class quickstart.action.getIndex%
+    class quickstart.action.GetIndex%
 
 getIndexが実行されました。
 
 サーバ側のログ(sbt/sbt run コンソール)には
 
-    [DEBUG] getIndex
-    [INFO] 0:0:0:0:0:0:0:1 GET /httpcrud -> quickstart.action.getIndex -> 200, 2 [ms]
+    [DEBUG] GetIndex
+    [INFO] 0:0:0:0:0:0:0:1 GET /httpcrud -> quickstart.action.GetIndex -> 200, 2 [ms]
 
 と表示されました。
 1行目はプログラム中で記載した`log.debug`による出力。
@@ -132,7 +125,7 @@ csrf-tokenが無いという文字列が帰ってきました。
 
 サーバ側のログ(sbt/sbt run コンソール)には
 
-    [INFO] 0:0:0:0:0:0:0:1 POST /httpcrud -> quickstart.action.postIndex -> 400, 34 [ms]
+    [INFO] 0:0:0:0:0:0:0:1 POST /httpcrud -> quickstart.action.PostIndex -> 400, 34 [ms]
 
 とあります。HTTPステータスコードは400となっています。
 これはXitrumがデフォルトでCSRF対策を行っているため、curlで実施したリクエストにトークンが含まれないことに起因します。
@@ -152,8 +145,8 @@ Xitrumが発行するCSRFトークンについては、フォーム画面作成�
     // import xitrum.Action
     import xitrum.{Action, SkipCsrfCheck}
 
-    //class postIndex extends HttpCRUD {
-    class postIndex extends HttpCRUD with SkipCsrfCheck {
+    //class PostIndex extends HttpCRUD {
+    class PostIndex extends HttpCRUD with SkipCsrfCheck {
 
 `SkipCsrfCheck`というtraitをimportして、`with` 句でそれを継承します。
 XitrumによるCSRFチェックが有効になるHTTPメソッドは、`POST`,`PUT`,`PATCH`,`DELETE`であるため、
@@ -180,7 +173,7 @@ DCEVMをalternativeインストール使用している場合は、`sbt/sbt`フ�
 では再びリクエストを行ってみます。
 
     curl -X POST http://localhost:8000/httpcrud                                                                                                                       11:21:15
-    class quickstart.action.postIndex%
+    class quickstart.action.PostIndex%
 
 POSTリクエストには`postIndex`が動作していることが確認できました。
 
@@ -213,7 +206,7 @@ POSTリクエストには`postIndex`が動作していることが確認でき�
 
 サーバ側のログでは`getIndex`が動作していることがわかります。
 
-    [INFO] 0:0:0:0:0:0:0:1 HEAD /httpcrud -> quickstart.action.getIndex -> 200, 3 [ms]
+    [INFO] 0:0:0:0:0:0:0:1 HEAD /httpcrud -> quickstart.action.GetIndex -> 200, 3 [ms]
 
 `OPTIONS`メソッドについては、主にSOCKJSの[CORS](https://developer.mozilla.org/ja/docs/HTTP_access_control)対応目的でXitrumには実装されています。
 デフォルトではCORSは無効となっています。

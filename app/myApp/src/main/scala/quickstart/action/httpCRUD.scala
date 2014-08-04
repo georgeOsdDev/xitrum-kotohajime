@@ -10,7 +10,7 @@ trait HttpCRUD extends Action {
 }
 
 @GET("/httpcrud")
-class getIndex extends HttpCRUD {
+class GetIndex extends HttpCRUD {
   def execute() {
     log.debug("getIndex")
     respondClassNameAsText()
@@ -18,7 +18,7 @@ class getIndex extends HttpCRUD {
 }
 
 @POST("/httpcrud")
-class postIndex extends HttpCRUD with SkipCsrfCheck {
+class PostIndex extends HttpCRUD with SkipCsrfCheck {
   def execute() {
     log.debug("postIndex")
     respondClassNameAsText()
@@ -26,7 +26,7 @@ class postIndex extends HttpCRUD with SkipCsrfCheck {
 }
 
 @PUT("/httpcrud")
-class putIndex extends HttpCRUD with SkipCsrfCheck {
+class PutIndex extends HttpCRUD with SkipCsrfCheck {
   def execute() {
     log.debug("putIndex")
     respondClassNameAsText()
@@ -34,7 +34,7 @@ class putIndex extends HttpCRUD with SkipCsrfCheck {
 }
 
 @DELETE("/httpcrud")
-class deleteIndex extends HttpCRUD with SkipCsrfCheck {
+class DeleteIndex extends HttpCRUD with SkipCsrfCheck {
   def execute() {
     log.debug("deleteIndex")
     respondClassNameAsText()
@@ -42,7 +42,7 @@ class deleteIndex extends HttpCRUD with SkipCsrfCheck {
 }
 
 @PATCH("/httpcrud")
-class patchIndex extends HttpCRUD with SkipCsrfCheck {
+class PatchIndex extends HttpCRUD with SkipCsrfCheck {
   def execute() {
     log.debug("patchIndex")
     respondClassNameAsText()
