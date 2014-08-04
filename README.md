@@ -12,13 +12,18 @@
   2. [XitrumアプリケーションのScaffoldのソースコードリーディング](http://george-osd-blog.heroku.com/44)
   2. ルーティングを追加する:
     3. [ActionとHTTPメソッドアノテーション](http://george-osd-blog.heroku.com/46)
-    3. ActionとURL](http://)
+    3. [ActionとURL](http://george-osd-blog.heroku.com/47)
+    3. 静的リソースとindex.html](http://)
   2. レイアウトを追加する:
     3. HTMLをレスポンスする](http://)
     3. Templateを使用してHTMLをレスポンスする](http://)
     3. JSONをレスポンスする](http://)
     3. JavaScriptとCSS](http://)
     3. webJARによるフロントエンドライブラリの活用](http://)
+  2. リクエストパラメーター:
+    3. リクエストパラメーター
+    3. CSRFトークン
+    3. セッションとクッキー
   2. ログイン機能を実装する](http://)
     3. 入力フォームを実装する](http://)
     3. リクエスト/レスポンス/セッションスコープについて](http://)
