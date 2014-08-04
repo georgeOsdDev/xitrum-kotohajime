@@ -4,6 +4,9 @@ Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケー�
 
 目次は[こちら](http://george-osd-blog.heroku.com/40)
 
+記事とサンプルコードは[MIT](http://opensource.org/licenses/mit-license.php)ライセンスで[github](https://github.com/georgeOsdDev/xitrum-kotohajime)で公開します。
+
+
 ## 1. Xitrumと関連プロジェクトについて
 
 今回はXitrumと関連プロジェクトについて簡単に紹介します。

@@ -4,6 +4,8 @@ Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケー�
 
 目次は[こちら](http://george-osd-blog.heroku.com/40)
 
+記事とサンプルコードは[MIT](http://opensource.org/licenses/mit-license.php)ライセンスで[github](https://github.com/georgeOsdDev/xitrum-kotohajime)で公開します。
+
 ## 5. ルーティングを追加する:
 
 今回から実際にソースコードを作成して、Xitrumアプリケーション開発を行います。
