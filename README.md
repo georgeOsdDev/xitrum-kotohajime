@@ -37,14 +37,14 @@
     3. Herokuへのデプロイ](http://)
 
 - [2] 応用編
+  2. クラスタリング
+    3. [Akka/Glokka](http://george-osd-blog.heroku.com/48)
+    3. Hazelcast
   2. コンポーネント
   2. 非同期アクション
     3. ActorAction
     3. FutureAction
   2. WebSocket/SockJS
-  2. クラスタリング
-    3. Akka/Glokka
-    3. Hazelcast
 - [3] Tips編
   2. セキュリティ
   2. 国際化対応
