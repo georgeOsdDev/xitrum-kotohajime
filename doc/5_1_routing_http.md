@@ -27,7 +27,7 @@ Xitrumの特徴の1つに[ルートの自動収集](http://xitrum-framework.gith
 
 HTTPメソッドに対応したクラスを作成します。
 
-#### quickstart.action.httpCRUD.scala
+#### quickstart.action.HttpCRUD.scala
 
     package quickstart.action
 

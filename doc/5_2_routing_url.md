@@ -53,7 +53,7 @@ https://github.com/xitrum-framework/xitrum/blob/master/src/main/scala/xitrum/ann
 という風に、/httpcrudというURLに対応してルーティングテーブルに登録されました。
 ではこの`paths: String*`という引数にはどのようなものが指定できるのかを[Xitrumガイド](http://xitrum-framework.github.io/guide/3.17/ja/action_view.html)を中心に見ていきます。
 
-#### rootExample.scala
+#### RootExample.scala
 
 ##### 通常パターン
 
