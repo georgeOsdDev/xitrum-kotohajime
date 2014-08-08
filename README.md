@@ -13,7 +13,7 @@
   2. ルーティングを追加する:
     3. [ActionとHTTPメソッドアノテーション](http://george-osd-blog.heroku.com/46)
     3. [ActionとURL](http://george-osd-blog.heroku.com/47)
-    3. 静的リソースとindex.html](http://)
+    3. [静的リソースとindex.html](http://george-osd-blog.heroku.com/49)
   2. レイアウトを追加する:
     3. HTMLをレスポンスする](http://)
     3. Templateを使用してHTMLをレスポンスする](http://)
