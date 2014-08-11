@@ -14,23 +14,26 @@
     3. [ActionとHTTPメソッドアノテーション](http://george-osd-blog.heroku.com/46)
     3. [ActionとURL](http://george-osd-blog.heroku.com/47)
     3. [静的リソースとindex.html](http://george-osd-blog.heroku.com/49)
-  2. レイアウトを追加する:
-    3. HTMLをレスポンスする](http://)
-    3. Templateを使用してHTMLをレスポンスする](http://)
-    3. JSONをレスポンスする](http://)
+  2. 　レスポンスとビュー:
+    3. [textをレスポンスする](http://george-osd-blog.heroku.com/50)
+    3. Templateを使用してViewをレスポンスする](http://)
     3. JavaScriptとCSS](http://)
     3. webJARによるフロントエンドライブラリの活用](http://)
+    3. その他のレスポンス
   2. リクエストパラメーター:
     3. リクエストパラメーター
     3. CSRFトークン
     3. セッションとクッキー
-  2. ログイン機能を実装する](http://)
-    3. 入力フォームを実装する](http://)
-    3. リクエスト/レスポンス/セッションスコープについて](http://)
-  2. 外部ライブラリを使用してバックエンド機能を実装する](http://)
-    3. DBアクセス](http://)
-    3. APIリクエスト](http://)
-    3. OAuth](http://)
+    3. コンポーネント間でのパラメータの共有
+    3. フォーム
+    3. Swaggerによるドキュメンテーションとスタブクライアントの作成
+  2. ブログアプリケーションの作成
+    3. ログイン機能を実装する](http://)
+
+    3. ブログアプリケーションの作成:外部ライブラリを使用してバックエンド機能を実装する
+      3. DBアクセス](http://)
+      3. APIリクエスト](http://)
+      3. OAuth](http://)
   2. パフォーマンス最適化を行う: キャッシュ]
   2. デプロイする](http://)
     3. 設定とパッケージング](http://)
@@ -45,10 +48,12 @@
     3. ActorAction
     3. FutureAction
   2. WebSocket/SockJS
+  2. ChannelPipeline
 - [3] Tips編
   2. セキュリティ
   2. 国際化対応
   2. ドキュメンテーション
+  2. Swagger codegen
   2. デバッグ
   2. テスト
   2. モニタリング
