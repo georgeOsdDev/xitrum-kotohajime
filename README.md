@@ -17,9 +17,9 @@
   2. 　レスポンスとビュー:
     3. [textをレスポンスする](http://george-osd-blog.heroku.com/50)
     3. Templateを使用してViewをレスポンスする](http://)
+    3. Xitrum-ScalateとViewに関するヘルパー](http://)
     3. JavaScriptとCSS](http://)
     3. webJARによるフロントエンドライブラリの活用](http://)
-    3. その他のレスポンス
   2. リクエストパラメーター:
     3. リクエストパラメーター
     3. CSRFトークン
@@ -69,7 +69,8 @@ Xitrumの普及、筆者自身のScala/Xitrum/Web開発スキルアップを目�
 2014/07/25現在の
 
  * ~~Xitrumの安定バージョンは [3.16](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.16%7Cjar)~~
- * 2014/08/02 Xitrumの安定バージョンは [3.17](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.16%7Cjar)
+ * ~~2014/08/02 Xitrumの安定バージョンは [3.17](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.17%7Cjar)~~
+ * 2014/08/27 Xitrumの安定バージョンは [3.18](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.18%7Cjar)
  * Scalaの安定バージョンは [2.11.2](http://downloads.typesafe.com/scala/2.11.2/scala-2.11.2.tgz?_ga=1.179477284.109116044.1401169577)
 
 

@@ -13,7 +13,8 @@ Xitrumを使ったWebアプリケーション開発を行うための環境構�
 2014/07/25現在の
 
  * ~~Xitrumの安定バージョンは [3.16](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.16%7Cjar)~~
- * 2014/08/02 Xitrumの安定バージョンは [3.17](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.16%7Cjar)
+ * ~~2014/08/02 Xitrumの安定バージョンは [3.17](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.17%7Cjar)~~
+ * 2014/08/27 Xitrumの安定バージョンは [3.18](http://search.maven.org/#artifactdetails%7Ctv.cntt%7Cxitrum_2.11%7C3.18%7Cjar)
  * Scalaの安定バージョンは [2.11.2](http://downloads.typesafe.com/scala/2.11.2/scala-2.11.2.tgz?_ga=1.179477284.109116044.1401169577)
 
 を使用していきます。
