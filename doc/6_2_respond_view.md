@@ -35,6 +35,9 @@ Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケー�
       }
     }
 
+##### RespondViewExample1.jade
+
+    p This is a "RespondViewExample1" template
 
 これによって、RespondViewExample1.jadeを元に生成されたViewがレスポンスされます。
 [http://localhost:8000/respond/view1](http://localhost:8000/respond/view1)
@@ -51,6 +54,7 @@ Actionの型を指定することで、指定したActionに対応するテン�
         respondView[RespondViewExample1]()
       }
     }
+
 
 これも同じく、RespondViewExample1.jadeを元に生成されたViewがレスポンスされます。
 [http://localhost:8000/respond/view2](http://localhost:8000/respond/view2)
