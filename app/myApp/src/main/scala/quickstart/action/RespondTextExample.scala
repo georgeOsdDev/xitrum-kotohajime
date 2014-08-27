@@ -38,7 +38,7 @@ class RespondExample1 extends ClassNameResponder {
 @GET("respond/js")
 class RespondExample2 extends ClassNameResponder {
   def execute() {
-    val jsText = "function myCallback(x){console.log("This is Callback for jsonP"); console.log(x);}"
+    val jsText = """function myCallback(x){console.log("This is Callback for jsonP"); console.log(x);}"""
     respondJs(jsText)
   }
 }
@@ -68,7 +68,7 @@ class RespondExample4 extends ClassNameResponder {
 @GET("respond/jsonp")
 class RespondExample5 extends ClassNameResponder {
   def execute() {
-    val jsonpObj = Map("key" -> "this is jsonP","key2":[1,2,3,true])
+    val jsonpObj = Map("key" -> "this is jsonP","key2" -> List(1,2,3,true))
     respondJsonP(jsonpObj, "myCallback")
   }
 }
