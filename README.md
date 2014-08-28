@@ -17,9 +17,9 @@
   2. 　レスポンスとビュー:
     3. [textをレスポンスする](http://george-osd-blog.heroku.com/50)
     3. [Templateを使用してViewをレスポンスする](http://george-osd-blog.heroku.com/52)
-    3. テンプレートエンジンとXitrum-Scalate](http://)
+    3. [テンプレートエンジンとXitrum-Scalate](http://george-osd-blog.heroku.com/53)
+    3. Viewに関するAPI](http://)
     3. Templateを使用せずに直接Viewをレスポンスする](http://)
-    3. Viewに関するヘルパー](http://)
     3. JavaScriptとCSS](http://)
     3. webJARによるフロントエンドライブラリの活用](http://)
   2. リクエストパラメーター:
