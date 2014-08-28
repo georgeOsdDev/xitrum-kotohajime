@@ -29,3 +29,17 @@ class RespondViewExample3 extends CustomLayout {
     respondView()
   }
 }
+
+@GET("respond/fragment1")
+class RespondFragmentExample1 extends CustomLayout {
+  def execute() {
+    respondView()
+  }
+}
+
+@GET("respond/fragment2")
+class RespondFragmentExample2 extends CustomLayout {
+  def execute() {
+    respondView()
+  }
+}

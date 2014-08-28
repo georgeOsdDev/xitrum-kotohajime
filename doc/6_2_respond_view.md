@@ -87,6 +87,40 @@ Actionの型を指定することで、指定したActionに対応するテン�
 この場合、CustomeLayout.jadeにRespondViewExample3.jadeがネストしてレスポンスされます。
 [http://localhost:8000/respond/view3](http://localhost:8000/respond/view3)
 
+#### フラグメントを使用する
+
+複数のActionでViewを共有するには、上記のようにレイアウトを使用する他に、
+`renderFragment`を使用することでも実現できます。
+fragmenはscalateフォルダ内に、使用するアクションのパッケージディレクトリに"_"prefixとして保存します。
+
+##### RespondViewExample.scala
+
+    @GET("respond/fragment1")
+    class RespondFragmentExample1 extends CustomLayout {
+      def execute() {
+        respondView()
+      }
+    }
+
+##### RespondFragmentExample1.jade
+
+    p This is a "RespondFragmentExample1" template
+    div
+      != renderFragment("myfragment")
+
+##### _myfragment.jade
+
+    p This is a "myfragment" fragment
+
+この場合、ResondFragmentExampleX.jade内でrenderFragment("myfragment")とすることで
+_myfragment.jadeがRespondViewFragment1/RespondViewFragment2の両方で使用できます。
+[http://localhost:8000/respond/fragment1](http://localhost:8000/respond/fragment1)
+[http://localhost:8000/respond/fragment2](http://localhost:8000/respond/fragment2)
+
+fragmentの他に、[Component](http://xitrum-framework.github.io/guide/3.18/ja/action_view.html#component)を使用するやり方もあります。
+fragmentはViewテンプレートを複数のActionで共有する仕組みですが、Componentはさらに高度な仕組みとして使うことができます。
+Componentについては応用編で詳しく掘り下げます。
+
 ---
 
 ActionとViewファイルの関係は以上です。
