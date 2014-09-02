@@ -1,0 +1,20 @@
+- import quickstart.action.Person
+
+- val key1Value = at("key1").asInstanceOf[String]
+- val person = at("taro").asInstanceOf[Person]
+- val person2 = at[Person]("jiro")
+
+div
+  p "key1"
+  p = key1Value
+
+  p "taro"
+  p = person.name
+  p = person.age
+
+  p "jiro"
+  p = person2.name
+  p = person2.age
+
+  p "toJson"
+  p = at.toJson("serializable")
