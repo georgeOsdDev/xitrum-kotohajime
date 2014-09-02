@@ -19,16 +19,15 @@
     3. [Templateを使用してViewをレスポンスする](http://george-osd-blog.heroku.com/52)
     3. [テンプレートエンジンとXitrum-Scalate](http://george-osd-blog.heroku.com/53)
     3. Viewに関するAPI](http://)
-    3. Templateを使用せずに直接Viewをレスポンスする](http://)
     3. JavaScriptとCSS](http://)
-    3. webJARによるフロントエンドライブラリの活用](http://)
+    3. リダイレクトとフォーワード、ポストバック](http://)
   2. リクエストパラメーター:
-    3. リクエストパラメーター
+    3. フォームとリクエストパラメーター
     3. CSRFトークン
     3. セッションとクッキー
     3. コンポーネント間でのパラメータの共有
-    3. フォーム
-    3. Swaggerによるドキュメンテーションとスタブクライアントの作成
+    3. JSONパース
+    3. Swaggerによるドキュメンテーション
   2. ブログアプリケーションの作成
     3. ログイン機能を実装する](http://)
 
@@ -52,8 +51,9 @@
   2. WebSocket/SockJS
   2. ChannelPipeline
 - [3] Tips編
-  2. セキュリティ
   2. 国際化対応
+  2. フィルター
+  2. セキュリティ
   2. ドキュメンテーション
   2. Swagger codegen
   2. デバッグ
