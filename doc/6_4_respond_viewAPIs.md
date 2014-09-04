@@ -18,7 +18,7 @@ Actionの各メソッドや、現在のActionのインスタンスをViewから�
  * [Action と view](http://xitrum-framework.github.io/guide/3.18/ja/action_view.html)
  * [テンプレートエンジン](http://xitrum-framework.github.io/guide/3.18/ja/template_engines.html)
 
-### 6-5. Viewに関するAPI
+### 6-4. Viewに関するAPI
 
 [xitrum.Actionクラス](http://xitrum-framework.github.io/api/3.18/#xitrum.Action)は、
 多くのtraitを`with`で継承しており、それらはXitrum内部で使用するもの以外にも、
