@@ -20,7 +20,7 @@
     3. [テンプレートエンジンとXitrum-Scalate](http://george-osd-blog.heroku.com/53)
     3. [Viewに関するAPI](http://george-osd-blog.heroku.com/54)
     3. [JavaScriptとCSS](http://george-osd-blog.heroku.com/55)
-    3. リダイレクトとフォーワード、ポストバック](http://)
+    3. [ポストバック、リダイレクトとフォーワード](http://george-osd-blog.heroku.com/57)
   2. リクエストパラメーター:
     3. フォームとリクエストパラメーター
     3. CSRFトークン
