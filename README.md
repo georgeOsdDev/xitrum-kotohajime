@@ -14,15 +14,16 @@
     3. [ActionとHTTPメソッドアノテーション](http://george-osd-blog.heroku.com/46)
     3. [ActionとURL](http://george-osd-blog.heroku.com/47)
     3. [静的リソースとindex.html](http://george-osd-blog.heroku.com/49)
-  2. 　レスポンスとビュー:
+  2. レスポンスとビュー:
     3. [textをレスポンスする](http://george-osd-blog.heroku.com/50)
     3. [Templateを使用してViewをレスポンスする](http://george-osd-blog.heroku.com/52)
     3. [テンプレートエンジンとXitrum-Scalate](http://george-osd-blog.heroku.com/53)
     3. [Viewに関するAPI](http://george-osd-blog.heroku.com/54)
     3. [JavaScriptとCSS](http://george-osd-blog.heroku.com/55)
     3. [ポストバック、リダイレクトとフォーワード](http://george-osd-blog.heroku.com/57)
-  2. リクエストパラメーター:
-    3. フォームとリクエストパラメーター
+  2. リクエストとスコープ:
+    3. チャネルパイプライン
+    3. リクエストパラメーター
     3. CSRFトークン
     3. セッションとクッキー
     3. コンポーネント間でのパラメータの共有
@@ -30,7 +31,6 @@
     3. Swaggerによるドキュメンテーション
   2. ブログアプリケーションの作成
     3. ログイン機能を実装する](http://)
-
     3. ブログアプリケーションの作成:外部ライブラリを使用してバックエンド機能を実装する
       3. DBアクセス](http://)
       3. APIリクエスト](http://)
