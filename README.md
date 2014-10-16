@@ -22,7 +22,7 @@
     3. [JavaScriptとCSS](http://george-osd-blog.heroku.com/55)
     3. [ポストバック、リダイレクトとフォーワード](http://george-osd-blog.heroku.com/57)
   2. リクエストとスコープ:
-    3. チャネルパイプライン
+    3. [チャネルパイプライン](http://george-osd-blog.heroku.com/58)
     3. リクエストパラメーター
     3. CSRFトークン
     3. セッションとクッキー
