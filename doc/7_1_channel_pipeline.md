@@ -6,7 +6,7 @@ Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケー�
 
 記事とサンプルコードは[MIT](http://opensource.org/licenses/mit-license.php)ライセンスで[github](https://github.com/georgeOsdDev/xitrum-kotohajime)で公開します。
 
-## 5. リクエストとスコープ:
+## 7. リクエストとスコープ:
 
 今回からはリクエストおよびスコープについて勉強します。
 クライアントからのリクエストがどのように処理されるか、リクエストパラメーターの扱い方などを取り上げたいと思います。
@@ -16,7 +16,7 @@ Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケー�
  * [Nettyハンドラ](http://xitrum-framework.github.io/guide/3.18/ja/handler.html)
 
 
-### 5-1. チャネルパイプラインとActionのライフサイクル
+### 7-1. チャネルパイプラインとActionのライフサイクル
 
 アプリケーションのロジックでリクエストを処理するうえで、Xitrumの処理の流れの概要を掴んでおきたいと思います。
 Xitrumアプリケーションを起動時に
