@@ -6,7 +6,7 @@ Xitrumことはじめシリーズでは、Xitrumを使ったWebアプリケー�
 
 記事とサンプルコードは[MIT](http://opensource.org/licenses/mit-license.php)ライセンスで[github](https://github.com/georgeOsdDev/xitrum-kotohajime)で公開します。
 
-## 5. リクエストとスコープ:
+## 7. リクエストとスコープ:
 
 今回はリクエストパラメーターの扱い方を取り上げたいと思います。
 
