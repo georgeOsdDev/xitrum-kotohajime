@@ -14,7 +14,7 @@ class PostbackIndex extends DefaultLayout {
 
         <input type="submit" value="Postback" />
       </form>
-      <hr>
+      <hr />
       <form data-postback="submit" action={url[PostbackAction2]}>
         <label>Title</label>
         <input type="text" name="title" class="required" /><br />
@@ -23,7 +23,8 @@ class PostbackIndex extends DefaultLayout {
         <textarea name="body" class="required"></textarea><br />
 
         <input type="submit" value="Postback2" />
-      </form>    )
+      </form>
+    )
   }
 }
 
