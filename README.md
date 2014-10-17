@@ -23,19 +23,17 @@
     3. [ポストバック、リダイレクトとフォーワード](http://george-osd-blog.heroku.com/57)
   2. リクエストとスコープ:
     3. [チャネルパイプライン](http://george-osd-blog.heroku.com/58)
-    3. リクエストパラメーター
+    3. [リクエストパラメーター](http://george-osd-blog.heroku.com/59)
+    3. [FullHttpRequest](http://george-osd-blog.heroku.com/60)
     3. CSRFトークン
     3. セッションとクッキー
-    3. コンポーネント間でのパラメータの共有
-    3. JSONパース
-    3. Swaggerによるドキュメンテーション
   2. ブログアプリケーションの作成
     3. ログイン機能を実装する](http://)
     3. ブログアプリケーションの作成:外部ライブラリを使用してバックエンド機能を実装する
       3. DBアクセス](http://)
       3. APIリクエスト](http://)
       3. OAuth](http://)
-  2. パフォーマンス最適化を行う: キャッシュ]
+  2. パフォーマンス最適化を行う: キャッシュ
   2. デプロイする](http://)
     3. 設定とパッケージング](http://)
     3. Herokuへのデプロイ](http://)
@@ -48,18 +46,21 @@
   2. 非同期アクション
     3. ActorAction
     3. FutureAction
+    3. Chunkレスポンス
   2. WebSocket/SockJS
-  2. ChannelPipeline
 - [3] Tips編
-  2. 国際化対応
   2. フィルター
+  2. Swaggerによるドキュメンテーション
+  2. JSON
+  2. XML
+  2. ファイルアップロード
+  2. ファイルレスポンス
+  2. 国際化対応
+  2. ログ
+  2. モニタリング
   2. セキュリティ
-  2. ドキュメンテーション
-  2. Swagger codegen
   2. デバッグ
   2. テスト
-  2. モニタリング
-  2. Fluentd連携
   2. 独自テンプレートエンジン
 
 
