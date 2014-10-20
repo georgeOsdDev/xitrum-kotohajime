@@ -25,7 +25,7 @@
     3. [チャネルパイプライン](http://george-osd-blog.heroku.com/58)
     3. [リクエストパラメーター](http://george-osd-blog.heroku.com/59)
     3. [FullHttpRequest](http://george-osd-blog.heroku.com/60)
-    3. CSRFトークン
+    3. [CSRF対策](http://george-osd-blog.heroku.com/61)
     3. セッションとクッキー
   2. ブログアプリケーションの作成
     3. ログイン機能を実装する](http://)
